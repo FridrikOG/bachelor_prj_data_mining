@@ -1,0 +1,294 @@
+Testing  DUMMessaging15K DUMMessaging30K 15000 30000
+Line  32  User entered 0
+Line  33  User entered 0
+Line  35  User entered 0
+Line  37  User entered 0
+Line  52  User entered 0
+Line  59  User entered 0
+Line  79  User entered 0
+Line  88  User entered 0
+Line  100  User entered 0
+Line  110  User entered 0
+Line  153  User entered 0
+Line  155  User entered 0
+Line  165  User entered 0
+Line  177  User entered 0
+HOW MANY ERRORS  31
+(26, ' Line: Yes to first, Asnwer higher than first', 1000)
+(30, 'Line. No to first, yes to second. Answer higher than second ', 20000)
+(32, 'Line. no to both, still lower by ', 30000)
+(33, 'Line. no to both, still lower by ', 30000)
+(35, 'Line. no to both, still lower by ', 30000)
+(37, 'Line. No to first, yes to second. Answer lower than first ', 15000)
+(44, ' Line: Yes to first, Asnwer higher than first', 15000)
+(45, ' Line: Yes to first, Asnwer higher than first', 35000)
+(52, 'Line. no to both, still lower by ', 30000)
+(59, 'Line. no to both, still lower by ', 30000)
+(62, ' Line: Yes to first, Asnwer higher than first', 85000)
+(68, ' Line: Yes to first, Asnwer higher than first', 35000)
+(71, 'Line. No to first, yes to second. Answer higher than second ', 70000)
+(74, ' Line: Yes to first, Asnwer higher than first', 25000)
+(79, 'Line. No to first, yes to second. Answer lower than first ', 15000)
+(82, 'Line. no to both, still lower by ', 20000)
+(88, 'Line. no to both, still lower by ', 30000)
+(95, ' Line: Yes to first, Asnwer higher than first', 85000)
+(100, 'Line. no to both, still lower by ', 30000)
+(109, ' Line: Yes to first, Asnwer higher than first', 235000)
+(110, 'Line. no to both, still lower by ', 30000)
+(129, ' Line: Yes to first, Asnwer higher than first', 85000)
+(131, ' Line: Yes to first, Asnwer higher than first', 5000)
+(153, 'Line. no to both, still lower by ', 30000)
+(155, 'Line. no to both, still lower by ', 30000)
+(156, ' Line: Yes to first, Asnwer higher than first', 15000)
+(162, 'Line. No to first, yes to second. Answer higher than second ', 270000)
+(165, 'Line. no to both, still lower by ', 30000)
+(171, ' Line: Yes to first, Asnwer higher than first', 5000)
+(173, 'Line. no to both, still lower by ', 15000)
+(177, 'Line. no to both, still lower by ', 30000)
+[[26, 1000, 16000], [30, 20000, 50000], [32, 30000, 0], [33, 30000, 0], [35, 30000, 0], [37, 15000, 0], [44, 15000, 30000], [45, 35000, 50000], [52, 30000, 0], [59, 30000, 0], [62, 85000, 100000], [68, 35000, 50000], [71, 70000, 100000], [74, 25000, 40000], [79, 15000, 0], [82, 20000, 10000], [88, 30000, 0], [95, 85000, 100000], [100, 30000, 0], [109, 235000, 250000], [110, 30000, 0], [129, 85000, 100000], [131, 5000, 20000], [153, 30000, 0], [155, 30000, 0], [156, 15000, 30000], [162, 270000, 300000], [165, 30000, 0], [171, 5000, 20000], [173, 15000, 15000], [177, 30000, 0]]
+LOGGING USER LIS  50000
+Messaging average incorrect by  45516.13
+Messaging average incorrect by  32935.48
+
+
+
+
+
+Testing  DUMSocialMedia10K DUMSocialMedia20K 10000 20000
+Line  9  User entered 0
+Line  10  User entered 0
+Line  12  User entered 0
+Line  29  User entered 0
+Line  36  User entered 0
+Line  66  User entered 0
+Line  78  User entered 0
+Line  88  User entered 0
+Line  130  User entered 0
+Line  132  User entered 0
+Line  134  User entered 0
+Line  144  User entered 0
+HOW MANY ERRORS  25
+(9, 'Line. no to both, still lower by ', 20000)
+(10, 'Line. no to both, still lower by ', 20000)
+(12, 'Line. no to both, still lower by ', 20000)
+(16, ' Line: Yes to first, Asnwer higher than first', 5000)
+(20, 'Line. No to first, yes to second. Answer higher than second ', 30000)
+(29, 'Line. no to both, still lower by ', 20000)
+(33, ' Line: Yes to first, Asnwer higher than first', 40000)
+(36, 'Line. no to both, still lower by ', 20000)
+(45, ' Line: Yes to first, Asnwer higher than first', 30000)
+(48, ' Line: Yes to first, Asnwer higher than first', 5000)
+(53, ' Line: Yes to first, Asnwer higher than first', 5000)
+(60, 'Line. no to both, still lower by ', 10000)
+(64, 'Line. No to first, yes to second. Answer higher than second ', 30000)
+(66, 'Line. no to both, still lower by ', 20000)
+(78, 'Line. no to both, still lower by ', 20000)
+(88, 'Line. no to both, still lower by ', 20000)
+(105, ' Line: Yes to first, Asnwer higher than first', 10000)
+(109, ' Line: Yes to first, Asnwer higher than first', 5000)
+(111, 'Line. No to first, yes to second. Answer higher than second ', 7798)
+(130, 'Line. no to both, still lower by ', 20000)
+(132, 'Line. no to both, still lower by ', 20000)
+(134, 'Line. no to both, still lower by ', 20000)
+(135, ' Line: Yes to first, Asnwer higher than first', 20000)
+(136, ' Line: Yes to first, Asnwer higher than first', 20000)
+(144, 'Line. no to both, still lower by ', 20000)
+[[9, 20000, 0], [10, 20000, 0], [12, 20000, 0], [16, 5000, 15000], [20, 30000, 50000], [29, 20000, 0], [33, 40000, 50000], [36, 20000, 0], [45, 30000, 40000], [48, 5000, 15000], [53, 5000, 15000], [60, 10000, 10000], [64, 30000, 50000], [66, 20000, 0], [78, 20000, 0], [88, 20000, 0], [105, 10000, 20000], [109, 5000, 15000], [111, 7798, 27798], [130, 20000, 0], [132, 20000, 0], [134, 20000, 0], [135, 20000, 30000], [136, 20000, 30000], [144, 20000, 0]]
+LOGGING USER LIS  0
+SocialMedia average incorrect by  63828.049999999996
+SocialMedia average incorrect by  41647.4
+
+
+
+
+
+Testing  DUMWikipedia4K NUMWikipedia8K 4000 8000
+Line  10  User entered 0
+Line  12  User entered 0
+Line  29  User entered 0
+Line  36  User entered 0
+Line  78  User entered 0
+Line  129  User entered 0
+Line  131  User entered 0
+Line  143  User entered 0
+HOW MANY ERRORS  31
+(7, ' Line: Yes to first, Asnwer higher than first', 1000)
+(10, 'Line. no to both, still lower by ', 8000)
+(12, 'Line. no to both, still lower by ', 8000)
+(16, ' Line: Yes to first, Asnwer higher than first', 6000)
+(17, ' Line: Yes to first, Asnwer higher than first', 1000)
+(24, 'Line. No to first, yes to second. Answer higher than second ', 2000)
+(29, 'Line. no to both, still lower by ', 8000)
+(34, ' Line: Yes to first, Asnwer higher than first', 96000)
+(36, 'Line. no to both, still lower by ', 8000)
+(37, ' Line: Yes to first, Asnwer higher than first', 1000)
+(39, ' Line: Yes to first, Asnwer higher than first', 6000)
+(45, ' Line: Yes to first, Asnwer higher than first', 6000)
+(46, ' Line: Yes to first, Asnwer higher than first', 1000)
+(48, ' Line: Yes to first, Asnwer higher than first', 1000)
+(52, ' Line: Yes to first, Asnwer higher than first', 6000)
+(55, ' Line: Yes to first, Asnwer higher than first', 1000)
+(64, ' Line: Yes to first, Asnwer higher than first', 46000)
+(78, 'Line. no to both, still lower by ', 8000)
+(82, 'Line. No to first, yes to second. Answer higher than second ', 2000)
+(87, ' Line: Yes to first, Asnwer higher than first', 1000)
+(89, ' Line: Yes to first, Asnwer higher than first', 6000)
+(104, ' Line: Yes to first, Asnwer higher than first', 6000)
+(106, ' Line: Yes to first, Asnwer higher than first', 96000)
+(129, 'Line. no to both, still lower by ', 8000)
+(131, 'Line. no to both, still lower by ', 8000)
+(134, ' Line: Yes to first, Asnwer higher than first', 6000)
+(135, ' Line: Yes to first, Asnwer higher than first', 1000)
+(136, 'Line. No to first, yes to second. Answer higher than second ', 42000)
+(143, 'Line. no to both, still lower by ', 8000)
+(145, ' Line: Yes to first, Asnwer higher than first', 1000)
+(149, ' Line: Yes to first, Asnwer higher than first', 6000)
+[[7, 1000, 5000], [10, 8000, 0], [12, 8000, 0], [16, 6000, 10000], [17, 1000, 5000], [24, 2000, 10000], [29, 8000, 0], [34, 96000, 100000], [36, 8000, 0], [37, 1000, 5000], [39, 6000, 10000], [45, 6000, 10000], [46, 1000, 5000], [48, 1000, 5000], [52, 6000, 10000], [55, 1000, 5000], [64, 46000, 50000], [78, 8000, 0], [82, 2000, 10000], [87, 1000, 5000], [89, 6000, 10000], [104, 6000, 10000], [106, 96000, 100000], [129, 8000, 0], [131, 8000, 0], [134, 6000, 10000], [135, 1000, 5000], [136, 42000, 50000], [143, 8000, 0], [145, 1000, 5000], [149, 6000, 10000]]
+LOGGING USER LIS  0
+Wikipedia average incorrect by  76892.56999999999
+Wikipedia average incorrect by  52647.4
+
+
+
+
+
+Testing  NUMSearchEngines75K DUMSearchEngines150K 75000 150000
+Line  9  User entered 0
+Line  10  User entered 0
+Line  12  User entered 0
+Line  29  User entered 0
+Line  36  User entered 0
+Line  78  User entered 0
+Line  93  User entered 0
+Line  129  User entered 0
+Line  141  User entered 0
+HOW MANY ERRORS  22
+(9, 'Line. no to both, still lower by ', 150000)
+(10, 'Line. no to both, still lower by ', 150000)
+(12, 'Line. no to both, still lower by ', 150000)
+(13, 'Line. no to both, still lower by ', 50000)
+(21, ' Line: Yes to first, Asnwer higher than first', 75000)
+(27, 'Line. no to both, still lower by ', 50000)
+(29, 'Line. no to both, still lower by ', 150000)
+(36, 'Line. no to both, still lower by ', 150000)
+(44, ' Line: Yes to first, Asnwer higher than first', 25000)
+(45, ' Line: Yes to first, Asnwer higher than first', 25000)
+(50, 'Line. no to both, still lower by ', 50000)
+(60, 'Line. No to first, yes to second. Answer lower than first ', 65000)
+(66, 'Line. no to both, still lower by ', 149999)
+(78, 'Line. No to first, yes to second. Answer lower than first ', 75000)
+(93, 'Line. No to first, yes to second. Answer lower than first ', 75000)
+(105, ' Line: Yes to first, Asnwer higher than first', 75000)
+(108, 'Line. no to both, still lower by ', 125000)
+(114, 'Line. No to first, yes to second. Answer lower than first ', 55000)
+(129, 'Line. no to both, still lower by ', 150000)
+(134, ' Line: Yes to first, Asnwer higher than first', 25000)
+(141, 'Line. no to both, still lower by ', 150000)
+(147, ' Line: Yes to first, Asnwer higher than first', 25000)
+[[9, 150000, 0], [10, 150000, 0], [12, 150000, 0], [13, 50000, 100000], [21, 75000, 150000], [27, 50000, 100000], [29, 150000, 0], [36, 150000, 0], [44, 25000, 100000], [45, 25000, 100000], [50, 50000, 100000], [60, 65000, 10000], [66, 149999, 1], [78, 75000, 0], [93, 75000, 0], [105, 75000, 150000], [108, 125000, 25000], [114, 55000, 20000], [129, 150000, 0], [134, 25000, 100000], [141, 150000, 0], [147, 25000, 100000]]
+LOGGING USER LIS  0
+SearchEngines average incorrect by  167574.34
+SearchEngines average incorrect by  88783.72
+
+
+
+
+
+Testing  DUMMaps4K DUMMaps8K 4000 8000
+Line  9  User entered 0
+Line  28  User entered 0
+Line  35  User entered 0
+Line  77  User entered 0
+Line  94  User entered 0
+Line  130  User entered 0
+Line  132  User entered 0
+Line  142  User entered 0
+HOW MANY ERRORS  18
+(3, ' Line: Yes to first, Asnwer higher than first', 2850)
+(9, 'Line. no to both, still lower by ', 8000)
+(11, ' Line: Yes to first, Asnwer higher than first', 1000)
+(16, ' Line: Yes to first, Asnwer higher than first', 1655)
+(28, 'Line. no to both, still lower by ', 8000)
+(35, 'Line. no to both, still lower by ', 8000)
+(38, ' Line: Yes to first, Asnwer higher than first', 6000)
+(44, ' Line: Yes to first, Asnwer higher than first', 96000)
+(45, ' Line: Yes to first, Asnwer higher than first', 16000)
+(52, ' Line: Yes to first, Asnwer higher than first', 6000)
+(77, 'Line. no to both, still lower by ', 8000)
+(78, ' Line: Yes to first, Asnwer higher than first', 6000)
+(94, 'Line. no to both, still lower by ', 8000)
+(106, ' Line: Yes to first, Asnwer higher than first', 96000)
+(111, ' Line: Yes to first, Asnwer higher than first', 1000)
+(130, 'Line. no to both, still lower by ', 8000)
+(132, 'Line. No to first, yes to second. Answer lower than first ', 4000)
+(142, 'Line. no to both, still lower by ', 8000)
+[[3, 2850, 6850], [9, 8000, 0], [11, 1000, 5000], [16, 1655, 5655], [28, 8000, 0], [35, 8000, 0], [38, 6000, 10000], [44, 96000, 100000], [45, 16000, 20000], [52, 6000, 10000], [77, 8000, 0], [78, 6000, 10000], [94, 8000, 0], [106, 96000, 100000], [111, 1000, 5000], [130, 8000, 0], [132, 4000, 0], [142, 8000, 0]]
+LOGGING USER LIS  0
+Maps average incorrect by  183824.62
+Maps average incorrect by  101700.66
+
+
+
+
+
+Testing  DUMEmail20K DUMEmail40K 20000 40000
+Line  10  User entered 0
+Line  12  User entered 0
+Line  28  User entered 0
+Line  31  User entered 0
+Line  35  User entered 0
+Line  64  User entered 0
+Line  76  User entered 0
+Line  87  User entered 0
+Line  94  User entered 0
+Line  130  User entered 0
+HOW MANY ERRORS  22
+(4, 'Line. no to both, still lower by ', 26300)
+(10, 'Line. no to both, still lower by ', 40000)
+(12, 'Line. no to both, still lower by ', 40000)
+(14, 'Line. No to first, yes to second. Answer lower than first ', 17000)
+(20, 'Line. No to first, yes to second. Answer higher than second ', 10000)
+(28, 'Line. no to both, still lower by ', 40000)
+(31, 'Line. no to both, still lower by ', 40000)
+(35, 'Line. no to both, still lower by ', 40000)
+(52, 'Line. No to first, yes to second. Answer higher than second ', 10000)
+(56, 'Line. no to both, still lower by ', 35000)
+(62, ' Line: Yes to first, Asnwer higher than first', 30000)
+(64, 'Line. no to both, still lower by ', 40000)
+(76, 'Line. no to both, still lower by ', 40000)
+(87, 'Line. no to both, still lower by ', 40000)
+(94, 'Line. no to both, still lower by ', 40000)
+(97, ' Line: Yes to first, Asnwer higher than first', 80000)
+(111, 'Line. no to both, still lower by ', 10000)
+(130, 'Line. no to both, still lower by ', 40000)
+(131, ' Line: Yes to first, Asnwer higher than first', 5000)
+(133, 'Line. no to both, still lower by ', 30000)
+(148, 'Line. no to both, still lower by ', 14001)
+(149, 'Line. no to both, still lower by ', 15000)
+[[4, 26300, 13700], [10, 40000, 0], [12, 40000, 0], [14, 17000, 3000], [20, 10000, 50000], [28, 40000, 0], [31, 40000, 0], [35, 40000, 0], [52, 10000, 50000], [56, 35000, 5000], [62, 30000, 50000], [64, 40000, 0], [76, 40000, 0], [87, 40000, 0], [94, 40000, 0], [97, 80000, 100000], [111, 10000, 30000], [130, 40000, 0], [131, 5000, 25000], [133, 30000, 10000], [148, 14001, 25999], [149, 15000, 25000]]
+LOGGING USER LIS  0
+Email average incorrect by  214838.3
+Email average incorrect by  114532.52
+
+
+
+
+
+Testing  DUMAdBlocker2K DUMAdBlocker4K 2000 4000
+Line  8  User entered 0
+Line  56  User entered 0
+Line  58  User entered 0
+HOW MANY ERRORS  5
+(8, 'Line. no to both, still lower by ', 4000)
+(33, 'Line. No to first, yes to second. Answer higher than second ', 1000)
+(56, 'Line. no to both, still lower by ', 4000)
+(58, 'Line. no to both, still lower by ', 4000)
+(59, ' Line: Yes to first, Asnwer higher than first', 500)
+[[8, 4000, 0], [33, 1000, 5000], [56, 4000, 0], [58, 4000, 0], [59, 500, 2500]]
+LOGGING USER LIS  5000
+AdBlocker average incorrect by  217538.3
+AdBlocker average incorrect by  114832.52
+Total cases 154
+Total unique cases  92
+Total average incorrect by (with zero)  31076.9
+Total average incorrect by (without zero)  16404.6
