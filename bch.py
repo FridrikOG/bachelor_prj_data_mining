@@ -2,10 +2,9 @@ import csv
 
 
 
-def check_file(filename, first_bool, second_bool, user_entered, first_val, second_val, count = 0):
+def check_file(filename, first_bool, second_bool, user_entered, first_val, second_val, count = 1):
     with open (filename) as resFile:
         csvReader = csv.DictReader(resFile, delimiter = ';')
-        count += 1
         problem_lis = []
         user_lis = []
         for line in csvReader:
@@ -51,10 +50,7 @@ def check_file(filename, first_bool, second_bool, user_entered, first_val, secon
 def test_file(filename, first_bool, second_bool, user_entered, first_val, second_val):
     print("\n" * 4)
     print("Testing ", first_bool, second_bool, first_val, second_val)
-    if first_bool == 'DUMMessaging15K':
-        check_lines, user_lis = check_file(filename, first_bool, second_bool, user_entered, first_val, second_val, count = 23)
-    else:
-        check_lines, user_lis = check_file(filename, first_bool, second_bool, user_entered, first_val, second_val)
+    check_lines, user_lis = check_file(filename, first_bool, second_bool, user_entered, first_val, second_val)
     print("HOW MANY ERRORS ", len(check_lines))
     
     for y in check_lines:
@@ -64,6 +60,7 @@ def test_file(filename, first_bool, second_bool, user_entered, first_val, second
 
 
 filename = 'Reservations.csv'
+filename = 'new_reservations.csv'
 
 first_bool_lis = ['DUMMessaging15K', 'DUMSocialMedia10K', 'DUMWikipedia4K', 'NUMSearchEngines75K', 'DUMMaps4K', 'DUMEmail20K', 'DUMAdBlocker2K']
 second_bool_lis = ['DUMMessaging30K', 'DUMSocialMedia20K', 'NUMWikipedia8K', 'DUMSearchEngines150K','DUMMaps8K', 'DUMEmail40K', 'DUMAdBlocker4K']
@@ -83,29 +80,31 @@ for i in range(len(first_bool_lis)):
     first_val = first_val_lis[i]
     second_val = second_val_lis[i]
     returned, user_lis = test_file(filename, first_bool, second_bool, user_entered, first_val, second_val)
-    print(user_lis)
-    print("LOGGING USER LIS ", user_lis[1][2])
+    print("printing user lis" ,user_lis)
+    #print(user_lis)
+    #print("LOGGING USER LIS ", user_lis[1][2])
     user_entered_name = user_entered.replace(user_entered[-8:], '')
 
     dict_wrong_cata[user_entered_name] = user_lis
     
     total_with_zero = 0
     total_without_zero = 0
-    for x in user_lis:
-        if x[0] not in total_lis:
-            total_lis.append(x[0])
-        total_total_lis.append(x[0])
-        total_with_zero += x[1]
+    if user_lis != []:
+        for x in user_lis:
+            if x[0] not in total_lis:
+                total_lis.append(x[0])
+            total_total_lis.append(x[0])
+            total_with_zero += x[1]
 
-        if x[2] < 300:
-            total_without_zero += x[1]
+            if x[2] < 300:
+                total_without_zero += x[1]
 
-    average_with_zero = round((total_with_zero/len(user_lis)),2)
-    average_without_zero = round((total_without_zero/len(user_lis)),2)
-    total_avg_with_zero += average_with_zero
-    total_avg_without_zero += average_without_zero
-    print(user_entered_name, "average incorrect by (with zero) ", total_avg_with_zero)
-    print(user_entered_name, "average incorrect by (without zero) ", total_avg_without_zero)
+        average_with_zero = round((total_with_zero/len(user_lis)),2)
+        average_without_zero = round((total_without_zero/len(user_lis)),2)
+        total_avg_with_zero += average_with_zero
+        total_avg_without_zero += average_without_zero
+        print(user_entered_name, "average incorrect by (with zero) ", total_avg_with_zero)
+        print(user_entered_name, "average incorrect by (without zero) ", total_avg_without_zero)
 
 print("Total cases" ,len(total_total_lis))
 print("Total unique cases ", len(total_lis))
