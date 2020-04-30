@@ -15,17 +15,22 @@ def check_file(filename, first_bool, second_bool, user_entered, first_val, secon
                 first_bool_data = line[first_bool]
                 second_bool_data = line[second_bool]
                 
+                # Participant said no to first WTA
                 if first_bool_data == '0':
+                    # Case when the participant answers 0
                     if user_entered_data == 0:
                         print("Line ", count, " User entered 0")
+                    # Participant said no to second WTA
                     if second_bool_data == '0':
                         # If he says no to both then his entered value has to be less than second val
                         if user_entered_data < second_val:
                             diff = second_val - user_entered_data
+                            # All problems gathered into a single list, count is the row number
+                            # diff is by how much the participant is off
                             problem_lis.append((count, "Line. no to both, still lower by ", diff ))
                             user_lis.append([count, diff, user_entered_data])
                     else:
-                        # 0 1
+                        # Participant said yes to first WTA, no to second WTA
                         # User entered data has to be larger than the first but smaller than the second
                         if user_entered_data < first_val:
                             diff = first_val - user_entered_data
@@ -35,7 +40,6 @@ def check_file(filename, first_bool, second_bool, user_entered, first_val, secon
                             diff = user_entered_data - second_val
                             problem_lis.append((count, "Line. No to first, yes to second. Answer higher than second ", diff))
                             user_lis.append([count, diff, user_entered_data])
-
                 else:
                     # Here they said yes to first one
                     if user_entered_data > first_val:
@@ -59,8 +63,8 @@ def test_file(filename, first_bool, second_bool, user_entered, first_val, second
 
 
 
-filename = 'Reservations.csv'
-filename = 'new_reservations.csv'
+filename = 'reservations.csv'
+#filename = 'new_reservations.csv'
 
 first_bool_lis = ['DUMMessaging15K', 'DUMSocialMedia10K', 'DUMWikipedia4K', 'NUMSearchEngines75K', 'DUMMaps4K', 'DUMEmail20K', 'DUMAdBlocker2K']
 second_bool_lis = ['DUMMessaging30K', 'DUMSocialMedia20K', 'NUMWikipedia8K', 'DUMSearchEngines150K','DUMMaps8K', 'DUMEmail40K', 'DUMAdBlocker4K']
